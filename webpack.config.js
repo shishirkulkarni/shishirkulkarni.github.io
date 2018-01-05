@@ -1,5 +1,5 @@
 var path = require('path'),
-	publicPath = 'docs';
+	publicPath = '';
 
 module.exports = {
 	entry: {
