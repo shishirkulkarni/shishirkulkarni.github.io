@@ -1,0 +1,45 @@
+.testimonials {
+	position: relative;
+	padding: 0px 0px 80px 0px;
+	background-color: #eee;
+}
+
+.testimonials .title {
+	margin-bottom: 50px;
+}
+
+.testimonials section {
+	position: relative;
+}
+
+.testimonials section:before {
+	display: block;
+	content: '“';
+	position: absolute;
+	font-size: 50px;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+.testimonials section:after {
+	display: block;
+	content: '”';
+	position: absolute;
+	font-size: 50px;
+	bottom: -80px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+.testimonials .quote {
+	font-size: 60px;
+	text-align: center;
+}
+
+.testimonials .slide {
+	background: transparent;
+}

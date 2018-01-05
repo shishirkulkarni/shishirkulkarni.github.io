@@ -1,0 +1,56 @@
+.namecard-container {
+	position: relative;
+	height: 90vh;
+	width: 100%;
+	padding: 0px;
+	margin-bottom: 0px;
+	background-color: #5ca6db;
+}
+
+.namecard-container .namecard {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	color: #fff;
+}
+
+.namecard-container {
+	font-family: 'league spartan';
+}
+
+.namecard-container .icon-container {
+	display: table;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.namecard-container .icon-container a {
+	cursor: pointer;
+	outline: none;
+}
+
+.namecard-container .icon-container a:hover, .namecard-container .icon-container a:focus {
+	text-decoration: none;
+}
+
+.namecard-container .icons {
+	display: table-cell;
+	color: #ccc;
+	font-size: 30px;
+}
+
+.namecard-container .profile-pic {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+	.namecard-container .icon-container {
+		width: 100%;	
+	}
+}

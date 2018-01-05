@@ -1,0 +1,43 @@
+.navbar {
+	min-height: 70px;
+	background-color: #FFFFFF;
+	border: none;
+	margin: 0px;
+}
+
+.navbar .container-fluid {
+	padding: 20px 0px;
+}
+
+#name{
+	color: #182153;
+	font-size: 30px;
+	margin: 0px;
+	padding-left: 0px;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-header {
+	position: relative;
+	left: 5%;
+}
+
+.navbar .navbar-nav {
+	float: unset;
+	position: absolute;
+	right: 5%;
+}
+
+.navbar .nav.navbar-nav li {
+	float: unset;
+	display: inline-block;
+}
+
+.navbar .nav.navbar-nav li a{
+	vertical-align: -webkit-baseline-middle;
+	color: #182153;
+	font-size: 15px;
+	line-height: 2;
+	padding: 15px 10px 5px 15px;
+	text-transform: uppercase;
+}

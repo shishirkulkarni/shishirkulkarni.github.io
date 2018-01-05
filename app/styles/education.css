@@ -1,0 +1,59 @@
+.education {
+	position: relative;
+}
+
+.education .timeline .milestone {
+	border-left: 1px solid #eee;
+	padding: 20px 0px;
+	position: relative;
+	margin-left: 20px;
+	position: relative;
+}
+
+.education .timeline .milestone .description {
+	margin-left: 30px;
+	position: relative;
+	background-color: #eee;
+	padding: 10px 30px;
+}
+
+.education .timeline .milestone .description::before {
+	display: block;
+	content: ' ';
+	position: absolute;
+	left: -20px;
+	top: 0px;
+	height: 30px;
+	width: 30px;
+	background-color: #eee;
+}
+
+.education .timeline .milestone .description::after {
+	display: block;
+	content: ' ';
+	position: absolute;
+	left: -20px;
+	top: 0px;
+	height: 30px;
+	width: 20px;
+	background-color: #fff;
+	border-top-right-radius: 50%;
+	z-index: 100;
+}
+
+
+
+.education .timeline .dot {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: #eee;
+	left: -10px;
+	top: 10px;
+	z-index: 200;
+}
+
+.education .timeline .description {
+
+}

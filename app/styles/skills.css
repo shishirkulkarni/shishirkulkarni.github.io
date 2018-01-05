@@ -1,0 +1,13 @@
+.skills {
+	position: relative;
+}
+
+.skills .devicon {
+	font-size: 40px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.skills .values .title {
+	margin-top: 10px;
+}
