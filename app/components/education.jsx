@@ -19,8 +19,8 @@ export default class Education extends Component {
 						<div className="dot"></div>
 						<div className="description">
 							<strong className="title">San Jose State University</strong> <br/>
-							<span>MS, Computer Science</span><br/>
-							<span>San Jose, CA, </span><span>CGPA: 3.9</span>
+							<span className="subtext">MS, Computer Science</span><br/>
+							<span className="subtext">San Jose, CA, </span><span className="subtext">CGPA: 3.9</span>
 						</div>
 					</div>
 
@@ -28,8 +28,8 @@ export default class Education extends Component {
 						<div className="dot"></div>
 						<div className="description">
 							<strong className="title">University of Pune</strong><br/>
-							<span>Bachelor of Engineering</span> <br/>
-							<span>Pune, India</span>
+							<span className="subtext">Bachelor of Engineering</span> <br/>
+							<span className="subtext">Pune, India</span>
 						</div>
 					</div>
 				</div>

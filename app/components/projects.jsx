@@ -18,8 +18,8 @@ export default class Projects extends Component {
 					<div className="col-sm-11 col-md-11 col-lg-11 col-xs-10 milestone">
 						<div className="dot"></div>
 						<div className="description">
-							<a href="https://github.com/shishirkulkarni/happypatients" target="_blank"><strong>Happy Patients Hospital</strong></a> <br/>
-							<ul>
+							<a className="title" href="https://github.com/shishirkulkarni/happypatients" target="_blank"><strong>Happy Patients Hospital</strong></a> <br/>
+							<ul className="subtext">
 								<li>Designed a hospital management system using to understand the working of various distributed systems.</li>
 								<li>Tech Stack: Jersy, Cassandra, Redis, ActiveMQ, Docker</li>
 							</ul>
@@ -28,8 +28,8 @@ export default class Projects extends Component {
 					<div className="col-sm-11 col-md-11 col-lg-11 col-xs-10 milestone">
 						<div className="dot"></div>
 						<div className="description">
-							<a href="https://github.com/shishirkulkarni/apriori" target="_blank"><strong>Apriori Algorithm</strong></a><br/>
-							<ul>
+							<a className="title" href="https://github.com/shishirkulkarni/apriori" target="_blank"><strong>Apriori Algorithm</strong></a><br/>
+							<ul className="subtext">
 								<li>Successfully implemented the Apriori Algorithm in Java and used it to devise association rules in the transactional dataset of retail stores</li>
 								<li>Implemented a recommendation system using generated association rules and social network graphs</li>
 								<li>Tech Stack: Maven, Java, Guava libraries</li>

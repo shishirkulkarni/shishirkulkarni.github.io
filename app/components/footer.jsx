@@ -9,7 +9,7 @@ export default class Footer extends Component {
 
 	render() {
 		return (
-			<footer className="footer-container text-center">
+			<footer className="footer-container text-center subtext">
 				Shishir Kulkarni ©2018
 			</footer>
 		);

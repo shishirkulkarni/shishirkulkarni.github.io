@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: normal;
+	src: url('./SpartanMB-Regular.otf') format('OpenType');
+}
+
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: bold;
+	src: url('./SpartanMB-Bold.otf') format('OpenType');
+}
+
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: 100;
+	src: url('./SpartanMB-Thin.otf') format('OpenType');
+}
+
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: 200;
+	src: url('./SpartanMB-Light.otf') format('OpenType');
+}
+
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: 300;
+	src: url('./SpartanMB-Light.otf') format('OpenType');
+}
+
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: 500;
+	src: url('./SpartanMB-SemiBold.otf') format('OpenType');
+}
+
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: 600;
+	src: url('./SpartanMB-SemiBold.otf') format('OpenType');
+}
+
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: 800;
+	src: url('./SpartanMB-Black.otf') format('OpenType');
+}
+
+@font-face {
+	font-family: 'SpartanMB';
+	font-weight: 900;
+	src: url('./SpartanMB-Black.otf') format('OpenType');
+}
+

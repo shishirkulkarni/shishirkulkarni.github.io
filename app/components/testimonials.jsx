@@ -26,7 +26,8 @@ export default class Testimonials extends Component {
 					infiniteLoop = {true}
 					autoPlay = {true}
 					showStatus = {false}
-					interval = {15000}>
+					interval = {15000}
+					className="subtext">
 						<div>
 							<p>
 								I worked with Shishir for few months with GS Labs contracting for Edmodo. In a short time Shishir was able to pick up the new framework we were migrating the code to and played a key role in writing the base application required for this project. He is hardworking, technically good at what he does and likes working with the technology - thats a hard combination to find. I would highly recommend Shishir!

@@ -26,7 +26,7 @@ export default class NameCard extends Component {
 					<h1>Shishir Kulkarni</h1>
 					<p>Eat. Sleep. Code. Repeat...</p>
 						<div className="row icon-container">
-							<div className="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+							<div className="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
 								<a href="mailto:shishir.kulkarni.2307@gmail.com">
 									<span className="icons socicon-mail"></span>
 								</a>
@@ -43,6 +43,9 @@ export default class NameCard extends Component {
 							</div>
 							<div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 								<a href="skype:live:spk2307?action=chat"><span className="icons socicon-skype"></span></a>
+							</div>
+							<div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<a href="telephone:19379869990"><span className="icons glyphicon glyphicon-earphone"></span></a>
 							</div>
 						</div>
 				</div>

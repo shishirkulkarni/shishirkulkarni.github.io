@@ -10,7 +10,7 @@ import Skills from './components/skills.jsx';
 import Experience from './components/experience.jsx';
 import './styles/app.css';
 import 'typeface-league-spartan';
-
+import './fonts/spartan.css';
 
 class App extends Component {
 	constructor() {

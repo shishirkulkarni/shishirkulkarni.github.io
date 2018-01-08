@@ -42,6 +42,14 @@
 	font-size: 30px;
 }
 
+.namecard-container .icons.glyphicon {
+	padding-top: 5px;
+}
+
+.namecard-container .icons:hover {
+	color: #fff;
+}
+
 .namecard-container .profile-pic {
 	height: 200px;
 	width: 200px;
